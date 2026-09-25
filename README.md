@@ -1,8 +1,8 @@
-# SochVyapaar — Smart Thinking for Local Business Growth
+# SochVyapaar - Smart Thinking for Local Business Growth
 
 > An AI business doctor that finds why your shop is losing customers and tells you exactly what to fix, affordably.
 
-## 🎯 What is SochVyapaar?
+## What is SochVyapaar?
 
 SochVyapaar is an AI-powered business analytics platform designed for local Indian shop owners (kirana stores, small retailers, etc.). Instead of just telling you "sales are falling," it explains **WHY** they're falling and **WHAT** you can realistically do about it.
 
@@ -11,12 +11,12 @@ SochVyapaar is an AI-powered business analytics platform designed for local Indi
 Daily Business Data → Analytics → Root Cause Detection → AI Explanation → Affordable Recommendation → Action Tracking → Feedback
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
-- A Google Gemini API key (free tier) — optional, works without it too
+- A Google Gemini API key (free tier)
 
 ### Backend Setup
 ```bash
@@ -48,7 +48,7 @@ Copy `.env.example` to `.env` in the backend directory and configure:
 | `SECRET_KEY` | JWT secret key (change in production!) |
 | `GEMINI_API_KEY` | Google Gemini API key (optional, uses templates as fallback) |
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -57,7 +57,7 @@ Copy `.env.example` to `.env` in the backend directory and configure:
 | Database | SQLite (MVP) → PostgreSQL (production) |
 | AI | Google Gemini API (free tier) |
 
-## 📱 Features
+## Features
 
 - **Dashboard** — KPI cards, recent data, quick actions
 - **Data Entry** — Simple daily business data input
@@ -67,7 +67,7 @@ Copy `.env.example` to `.env` in the backend directory and configure:
 - **Hindi + English** — Full bilingual support
 - **Responsive** — Works on desktop, tablet, and mobile browsers
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 sochvyapaar/
@@ -90,7 +90,7 @@ sochvyapaar/
 └── README.md
 ```
 
-## 🔒 Security
+## Security
 
 - Password hashing with bcrypt
 - JWT authentication
@@ -98,7 +98,7 @@ sochvyapaar/
 - User-scoped data access
 - No API keys exposed to frontend
 
-## 🌐 Deployment
+## Deployment
 
 | Component | Platform |
 |-----------|----------|
@@ -106,6 +106,6 @@ sochvyapaar/
 | Backend | Render / AWS |
 | Database | Supabase PostgreSQL |
 
-## 📄 License
+## License
 
 MIT
